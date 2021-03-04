@@ -1,0 +1,41 @@
+.home_image{
+    width: 40%;
+    height: 40%;
+    object-fit: contain;
+}
+.product{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    background-color: white;
+    margin-right: 10px;
+    width: 50%;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  
+  transition: height 1s;
+}
+.product:hover{
+  background-color: rgb(24, 23, 23);
+  color: white;
+  height: 350px;
+}
+.star{
+  display: flex;
+}
+.btn{
+margin-top: 5px;
+cursor: pointer;
+background-color: orange;
+border: none;
+font-size: 15px;
+
+}
+.star{
+  color: orange;
+}
